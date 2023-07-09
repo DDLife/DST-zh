@@ -271,13 +271,13 @@ function mapToVirtual(fileRoute) {
   if (!match) return;
   const virtualName = fileRoute.slice(match.docs.length, -".md".length);
   if (isExcludedFile(virtualName)) return;
-  // const cache = `${pageLink}${match.cache}`;
+  const cache = `${pageLink}${match.cache}`;
   // const code = `${blobLink}${match.code}`;
-  // const docs = `${pageLink}#/${match.docs}`;
+  const docs = `${pageLink}#/${match.docs}`;
 
   return {
     virtualName,
-    repos: match,
+    repos: { docs, cache, code: match.code, ext: match.ext },
     global: match.global,
     remoteRepos: match.remoteRepos ?? [],
   };
