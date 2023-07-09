@@ -1,0 +1,1 @@
+{"id":"util","deps":[],"as":{},"info":"","extern":[{"id":"distsq","info":"\n\nv1, v2, v3, v4 => Number\n\n两种形式\n\n- x1:Number, y1:Number, x2:Number, y2:Number => Number\n\n  计算平面点的距离\n\n- v1:Vector3, v2:Vector3 => Number\n\n  计算空间点的距离\n\n"},{"id":"FunctionOrValue","info":"\n\n(a, ...) => any\n\n如果 a 是函数, 则执行 a(...), 否则直接返回 a\n\n"}],"local":[]}

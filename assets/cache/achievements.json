@@ -1,0 +1,1 @@
+{"id":"achievements","deps":[],"as":{},"ret":"Achievements","info":"\n\n定义成就, 主要格式 @ACHIEVEMENT\n\n","extern":[{"id":"Achievements","info":"\n\n各种成就\n\n"}],"local":[{"id":"ACHIEVEMENT","info":"\n\nid, name -> format\n\n```js\nconst format = {\n  name: name,\n  id: {\n    steam: string,\n    psn: id,\n  },\n};\n```\n\n"}]}
