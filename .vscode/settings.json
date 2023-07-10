@@ -3,7 +3,7 @@
     {
       "mdDir": "docs/",
       "cacheDir": "assets/cache/",
-      "codeDir": "code/",
+      "codeDir": "temp/scripts-DST",
       "exclude": ["README", "SUMMARY"],
       "ext": ".lua"
     }
