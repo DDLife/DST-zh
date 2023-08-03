@@ -1,0 +1,1 @@
+{"id":"mainfunctions","deps":["scheduler"],"as":{"PopupDialogScreen":"screens/redux/popupdialog","WorldGenScreen":"screens/worldgenscreen","HealthWarningPopup":"screens/healthwarningpopup","Stats":"stats"},"info":"","extern":[],"local":[]}

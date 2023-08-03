@@ -1,11 +1,13 @@
 {
   "dstutils.mapRules": [
     {
-      "mdDir": "docs/",
-      "cacheDir": "assets/cache/",
-      "codeDir": "temp/scripts-DST",
-      "exclude": ["README", "SUMMARY"],
-      "ext": ".lua"
+      "src": { "dir": "temp/scripts-DST", "ext": ".lua", "position": "right" },
+      "dst": { "dir": "docs/", "ext": ".md", "position": "left" },
+      "cache": {
+        "src": { "dir": "docs/", "ext": ".md" },
+        "dst": { "dir": "assets/cache/", "ext": ".json" }
+      },
+      "exclude": ["README", "SUMMARY"]
     }
   ]
 }

@@ -1,0 +1,1 @@
+{"id":"dumper","deps":[],"as":{},"info":"\n\n将 lua 对象进行 string 化, 即类似 json 化\n\n","extern":[],"local":[]}

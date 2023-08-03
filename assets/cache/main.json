@@ -1,0 +1,1 @@
+{"id":"main","deps":["strict","debugprint","config","vector3","mainfunctions"],"as":{},"info":"","extern":[{"id":"loadfile","info":"\n\n对 @loadfn 进行封装\n\n"}],"local":[{"id":"loadfn","info":"\n\n> const loadfn: (modulename: string) => any | string\n\n"}]}

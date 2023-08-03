@@ -6,8 +6,8 @@ export const extension = {
     return index;
   },
   tokenizer(src, tokens) {
-    const popupVarRule = /^@([^\s,]+)/;
-    const popupModRule = /^#([^\s,]+)/;
+    const popupVarRule = /^@([^\s,\(\)]+)/;
+    const popupModRule = /^#([^\s,\(\)]+)/;
     let match;
     if ((match = popupVarRule.exec(src))) {
       return {

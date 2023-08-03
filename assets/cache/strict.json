@@ -1,0 +1,1 @@
+{"id":"strict","deps":[],"as":{},"info":"\n\n约束全局变量的定义, 必须通过 `strict` 模块的 `global` 函数定义\n\n","extern":[{"id":"global","info":"\n\n> function global(...args: string[]): void\n\n定义全局变量\n\n### example\n\n```lua\nglobal(\"MAIN\", \"WORLDGEN_MAIN\")\n```\n\n定义了两个变量 `MAIN` 和 `WORLDGEN_MAIN`\n\n"}],"local":[{"id":"mt-__index","info":""}]}

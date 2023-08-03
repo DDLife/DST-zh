@@ -84,6 +84,22 @@ class:
 
 进一步可见[Class](https://atjiu.github.io/dstmod-tutorial/#/class)
 
+setter 和 makereadonly 的用法:
+
+```lua
+local Person = Class(nil, function(self, age)
+    self._ = { age = age }
+    addsetter(self, "age", function(self, value)
+        assert(value >= 0 and value <= 120, "Age must be between 0 and 120")
+        self._.age = value
+    end)
+end)
+
+local p = Person(30)
+print(p.age) -- prints 30
+p.age = 150 -- throws an error
+```
+
 </docs-expose>
 
 ---
